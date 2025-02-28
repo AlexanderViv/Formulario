@@ -1,0 +1,89 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Centering the content and giving some padding */
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Label Styling */
+label {
+    font-size: 1em;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="month"],
+input[type="week"],
+input[type="color"],
+input[type="button"],
+input[type="submit"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+input[type="number"] {
+    width: 5rem;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Styling for buttons */
+input[type="button"],
+input[type="submit"] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Checkbox and radio button styling */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #555;
+}
+
+/* Adding some space to the paragraph and align text */
+p {
+    margin: 10px 0;
+}
+
+/* Specific Styling for URL Input */
+input[type="url"] {
+    width: 60%;
+}
+
+/* Image input styling */
+input[type="image"] {
+    width: 5rem;
+    height: auto;
+}
